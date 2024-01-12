@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="footer.css" />
+
+    <title>Horgolás és Makramé</title>
+  </head>
+  <body>
+    <div id="header">
+      <div>
+        <img src="SZF Horgolás/IMAGES/LOGO.jpg" />
+      </div>
+
+      <div id="menu">
+        <div>
+          <a class="nav-link" href="#rolamS" style="padding-right: 15px"
+            >Rólam</a
+          >
+        </div>
+        <div>
+          <a class="nav-link" href="#termekekS" style="padding-right: 15px"
+            >Termékek</a
+          >
+        </div>
+        <div>
+          <a class="nav-link" href="#munkaimS" style="padding-right: 15px"
+            >Munkáim</a
+          >
+        </div>
+        <div><a class="nav-link" href="#rendelesS">Rendelés</a></div>
+      </div>
+
+      <div id="mail">
+        <a href="" style="padding: 0"
+          ><img
+            src="SZF Horgolás/IMAGES/maillogo.jpg "
+            onclick="alert('Ezen a címen keress !');"
+        /></a>
+      </div>
+    </div>
+
+    <div class="container" id="index">
+      <section id="rolamS">
+        <h1>Rólam</h1>
+
+        <div class="container" id="rolam">
+          <img src="SZF Horgolás/IMAGES/mc.jpg" />
+          <p>
+            Rengeteg féle megoldás van rá! Lehet csinálni simán kézzel, tű
+            nélkül, vagy kézre tekerve, tűvel áthúzva, vagy akár simán az
+            asztalon hajtva is, ahogy ebben a videóban kezdtem.​Biztos vagyok
+            benne, hogy ha már 10-20 alkalommal elkészíted, lesz saját
+            kezdőcsomó készítő technikád, ne ragaszkodj ehhez. Szerintem a
+            horgolásban a variálhatóság épp oly fontos, mint az alapok betartása
+            (vagy be nem tartása..), ettől olyan szórakoztató. Rengeteg féle
+            megoldás van rá! Lehet csinálni simán kézzel, tű nélkül, vagy kézre
+            tekerve, tűvel áthúzva, vagy akár simán az asztalon hajtva is, ahogy
+            ebben a videóban kezdtem.​Biztos vagyok benne, hogy ha már 10-20
+            alkalommal elkészíted, lesz saját kezdőcsomó készítő technikád, ne
+            ragaszkodj ehhez.
+          </p>
+        </div>
+      </section>
+      <section id="termekekS">
+        <h1>Termékek</h1>
+        <div id="termekek">
+          <div class="container">
+            <div class="row"></div>
+            <div class="table-responsive-xl">
+              <table class="table table-striped table-bordered">
+                <thead class="table-dark">
+                  <tr>
+                    <th>Fajta</th>
+                    <th>Méret</th>
+                    <th>Ár</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>Kisöreg Baba</th>
+                    <th>20 cm</th>
+                    <th>10.000 Ft</th>
+                  </tr>
+                  <tr>
+                    <th>Fajta</th>
+                    <th>Méret</th>
+                    <th>Ár</th>
+                  </tr>
+                  <tr>
+                    <th>Fajta</th>
+                    <th>Méret</th>
+                    <th>Ár</th>
+                  </tr>
+                  <tr>
+                    <th>Fajta</th>
+                    <th>Méret</th>
+                    <th>Ár</th>
+                  </tr>
+                  <tr>
+                    <th>Fajta</th>
+                    <th>Méret</th>
+                    <th>Ár</th>
+                  </tr>
+                  <tr>
+                    <th>Fajta</th>
+                    <th>Méret</th>
+                    <th>Ár</th>
+                  </tr>
+                  <tr>
+                    <th>Fajta</th>
+                    <th>Méret</th>
+                    <th>Ár</th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="rendelesS">
+        <h1>Rendelés</h1>
+
+        <form
+          action=""
+          style="
+            width: 400px;
+            margin: 0px auto;
+            color: black;
+            background-color: #f39e9b;
+            padding: 5px;
+            border-radius: 3px;
+          "
+        >
+          <div class="row">
+            <div class="col">
+              <div class="form-group">
+                <label for="knev">Keresztnév</label>
+                <input type="text" name="knev" id="knev" class="form-control" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-group">
+                <label for="vnev">Vezetéknév</label>
+                <input type="text" name="vnev" id="vnev" class="form-control" />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="form-group">
+                <label for="emailN">E-mail cím</label>
+                <input
+                  type="email"
+                  name="emailN"
+                  id="emailN"
+                  class="form-control"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="form-group">
+                <label for="tanf">Méret</label>
+                <select name="tanf" id="tanf" class="form-control">
+                  <option>Kis méret</option>
+                  <option>Közepes méret</option>
+                  <option>Nagy méret</option>
+                </select>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-group">
+                <label for="tanf">Fajta</label>
+                <select name="tanf" id="tanf" class="form-control">
+                  <option>Zsiráf</option>
+                  <option>Maci</option>
+                  <option>Róka</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="form-check">
+            <label for="check" class="form-check-label"
+              >Felhasználói feltételek elfogadása</label
+            >
+            <input
+              type="checkbox"
+              name="check"
+              id="check"
+              class="form-check-input"
+            />
+          </div>
+          <button class="form-control">Küldés</button>
+        </form>
+      </section>
+      <section id="munkaimS">
+        <h1>Munkáim</h1>
+        <div id="munkaim">
+          <div class="row">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+              <img
+                src="SZF Horgolás/IMAGES/galeria.jpg"
+                class="img-thumbnail"
+              />
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+              <img
+                src="SZF Horgolás/IMAGES/galeria2.jpg"
+                class="img-thumbnail"
+              />
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+              <img
+                src="SZF Horgolás/IMAGES/galeria3.jpg"
+                class="img-thumbnail"
+              />
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+              <img
+                src="SZF Horgolás/IMAGES/galeria4.jpg"
+                class="img-thumbnail"
+              />
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+              <img
+                src="SZF Horgolás/IMAGES/galeria3.jpg"
+                class="img-thumbnail"
+              />
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+              <img
+                src="SZF Horgolás/IMAGES/galeria2.jpg"
+                class="img-thumbnail"
+              />
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+              <img
+                src="SZF Horgolás/IMAGES/galeria.jpg"
+                class="img-thumbnail"
+              />
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+              <img
+                src="SZF Horgolás/IMAGES/galeria.jpg"
+                class="img-thumbnail"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div id="footer">
+      <div>
+        <img src="SZF Horgolás/IMAGES/LOGO.jpg" />
+        <p>Minden jog fentartva</p>
+      </div>
+    </div>
+    <div id="stick1">
+      <a class="nav-link" href="#footer"
+        ><img src="SZF Horgolás/IMAGES/Crochet.png"
+      /></a>
+    </div>
+  </body>
+</html>

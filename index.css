@@ -1,0 +1,66 @@
+
+
+
+#index h1{
+  text-align: center;
+  margin: 75px 0px 75px 0px;
+  border-bottom: 2px solid black;
+  border-radius: 5%;
+  font-weight: bold;
+  color:black;
+}
+#munkaim img{
+  margin-bottom: 25px;
+}
+#munkaim img:hover
+{
+  transform: scale(1.15,1.15);
+}
+#rolam{
+  margin: 0 auto;
+  background-color: rgba(243, 158, 155, 0.8);
+  border-radius: 2%;
+  width: 900px;
+  box-shadow: 5px 5px 10px #F39E9B;
+  
+}
+#rolam img{
+  width: 200px;
+  border-radius: 10%;
+  margin: 25px 15px 0px 25px;
+  float: left;
+  
+}
+#rolam p{
+  padding: 25px 25px 25px 25px;
+  font-size: 20px;
+}
+
+#stick1 img{
+  border-radius: 16%;
+  width: 100px;
+  position: fixed;
+  bottom: 210px;
+  right: 10px;
+  animation-name: stickMove;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+}
+
+#stick img:hover{
+  transform: scale(1.05,1.05);
+  
+}
+#termekek th{
+  text-align: center;
+}
+@keyframes stickMove {
+  0% {
+    right: -50px;
+  }
+
+  100% {
+    right: 10px;
+  }
+}

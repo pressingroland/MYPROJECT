@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  background-color: white;
+  background-image: url(bground.jpg);
+	background-repeat:no-repeat;
+	background-position:left top;
+	background-attachment:fixed;
+  color: white;
+  text-align: justify;
+  font-family: monospace;
+}
+
